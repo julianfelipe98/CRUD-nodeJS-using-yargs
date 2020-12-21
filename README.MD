@@ -19,7 +19,7 @@ this command has no flags
 
 ## update
 the list command allows us to update a task in the data.json , we will be able to update the task status completed(true or false)  we will be able to use this commands using the description and completed flags \
-#flags:
+### flags:
 `--description or -d` with this flag we define the task description that we want to update \
 `--completed or -c` with this flag we define the task status the values must to be true or false \
 
@@ -27,7 +27,7 @@ the only required flag in this command is the description flag , the completed f
 
 ## delete
 the list command allows us to delete a task in the data.json , we delete this task using the same description sotoraged before passing this on the description flag \
-#flags:
+### flags:
 `--description or -d` with this flag we define the task description that we want to delete \
 
 the description flag is required .
@@ -41,16 +41,16 @@ the description flag is required .
 ## Example 
 
 
-## create 
+### create 
 * `node app.js create -d workout `
 * `node app.js create -d run `
 this sentence have to crete two new tasks in the data.json file with completed status false  
-## list 
+### list 
 * `node app.js list`
 this sentece have to show us the task for doing , at the moment we just have the workout and run tasks.
-## delete 
+### delete 
 * `node delete -d run`
 this setence have to delete the run task in the data.json file 
-## update 
+### update 
 * `node update -d workout -c true`
 this sentence have to update the task workout status completed to true 
