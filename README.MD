@@ -10,7 +10,7 @@ more about yargs: https://www.npmjs.com/package/yargs
 
 ## create 
 the create command allows us to create new task , this command has one and required flag that is description \
-# flags: 
+### flags: 
 *`--description or -d` with this flag we set the task description
 
 ## list
