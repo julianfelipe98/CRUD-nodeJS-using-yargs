@@ -1,4 +1,4 @@
-# Yargs example 2
+# Local CRUD on nodeJS cli with yargs  
 
 ## About 
 Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface,
@@ -10,7 +10,7 @@ more about yargs: https://www.npmjs.com/package/yargs
 
 ## create 
 the create command allows us to create new task , this command has one and required flag that is description \
-# flags: \
+# flags: 
 *`--description or -d` with this flag we set the task description
 
 ## list
