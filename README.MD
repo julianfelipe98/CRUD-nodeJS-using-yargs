@@ -1,4 +1,4 @@
-# Local CRUD on nodeJS cli with yargs  
+# Local CRUD on nodeJS CLI with yargs  
 
 ## About 
 Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface,
