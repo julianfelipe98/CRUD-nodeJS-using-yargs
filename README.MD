@@ -30,7 +30,7 @@ the list command allows us to delete a task in the data.json , we delete this ta
 #flags:
 `--description or -d` with this flag we define the task description that we want to delete \
 
-the description flag is required 
+the description flag is required .
 
 
 ## Getting started 
