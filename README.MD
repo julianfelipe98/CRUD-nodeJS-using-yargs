@@ -11,7 +11,7 @@ we  are implementing 4 commands
 ## create 
 the create command allows us to create new task , this command has one and required flag that is description 
 ### flags: 
-*`--description or -d` with this flag we set the task description
+* `--description or -d` with this flag we set the task description
 
 ## list
 the list command allow us to list the tasks sotoraged in the data.json file \
@@ -20,15 +20,15 @@ this command has no flags
 ## update
 the list command allows us to update a task in the data.json , we will be able to update the task status completed(true or false)  we will be able to use this commands using the description and completed flags 
 ### flags:
-`--description or -d` with this flag we define the task description that we want to update \
-`--completed or -c` with this flag we define the task status the values must to be true or false 
+*`--description or -d` with this flag we define the task description that we want to update 
+*`--completed or -c` with this flag we define the task status the values must to be true or false 
 
 the only required flag in this command is the description flag , the completed flag is not need but has a default value of true 
 
 ## delete
 the list command allows us to delete a task in the data.json , we delete this task using the same description sotoraged before passing this on the description flag 
 ### flags:
-`--description or -d` with this flag we define the task description that we want to delete 
+* `--description or -d` with this flag we define the task description that we want to delete 
 
 the description flag is required .
 
