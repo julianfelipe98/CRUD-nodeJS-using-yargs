@@ -20,8 +20,8 @@ this command has no flags
 ## update
 the list command allows us to update a task in the data.json , we will be able to update the task status completed(true or false)  we will be able to use this commands using the description and completed flags 
 ### flags:
-*`--description or -d` with this flag we define the task description that we want to update 
-*`--completed or -c` with this flag we define the task status the values must to be true or false 
+* `--description or -d` with this flag we define the task description that we want to update 
+* `--completed or -c` with this flag we define the task status the values must to be true or false 
 
 the only required flag in this command is the description flag , the completed flag is not need but has a default value of true 
 
