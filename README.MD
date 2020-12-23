@@ -5,7 +5,7 @@ Yargs helps you build interactive command line tools, by parsing arguments and g
 this is task controller where we are simulating a db with a data.json file that storage the tasks 
 that we want to save , you will be able to CRUD any kind of task and its respective state (true or false) , all this with the command line commands and flags with yargs
 we  are implementing 4 commands  
-*create,delete,list,update \
+* create,delete,list,update \
 more about yargs: https://www.npmjs.com/package/yargs
 
 ## create 
